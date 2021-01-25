@@ -1,0 +1,27 @@
+.card{
+    max-width: 200px;
+    position: relative;
+    cursor: pointer;
+
+    > a{
+        text-decoration: none;
+    }
+
+    .banner{
+        position: relative;
+        display: block;
+
+        > img{
+            width: 100%;
+        }
+    }
+
+    .description{
+        padding: 0.5rem;
+        background-color: #000;
+        color: #fff;
+        height: 60px;
+        position: relative;
+        bottom: 5px;
+    }
+}
